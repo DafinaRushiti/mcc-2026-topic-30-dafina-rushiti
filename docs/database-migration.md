@@ -98,6 +98,23 @@ For a stronger assignment submission, sample seed data can also include:
 - sample order details
 - sample daily reports
 
+The project also includes a demo seed command:
+
+```bash
+cd restoranti-back-main
+npm run seed
+```
+
+Seeded demo accounts:
+
+```text
+Admin:  admin@restaurant.com / admin123
+Waiter: waiter@restaurant.com / waiter123
+Client: client@restaurant.com / client123
+```
+
+These accounts were added so the professor can log in and test the deployed app. The seed command creates or updates demo users and sample menu products in the configured database.
+
 ## Cloud Database Migration Plan
 
 1. Create a managed MySQL database with Aiven.

@@ -68,6 +68,22 @@ Successful cloud checks:
 - Daily reports navigation
 - Analytics navigation
 
+## Demo Login
+
+Professor/demo access. This account was added so the professor can log in and test the deployed app:
+
+```text
+Email: admin@restaurant.com
+Password: admin123
+```
+
+Additional seeded demo users:
+
+```text
+Waiter: waiter@restaurant.com / waiter123
+Client: client@restaurant.com / client123
+```
+
 ## Known Notes
 
 - Render free services may sleep after inactivity, so the first request can take longer.

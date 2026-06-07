@@ -97,6 +97,25 @@ Password: admin123
 
 Change this before using the project in production.
 
+## Demo Credentials
+
+These demo users were added so the professor can log in and test the deployed app. They are available after running the seed command:
+
+```text
+Admin:  admin@restaurant.com / admin123
+Waiter: waiter@restaurant.com / waiter123
+Client: client@restaurant.com / client123
+```
+
+Run the seed command from the backend folder:
+
+```bash
+cd restoranti-back-main
+npm run seed
+```
+
+The command creates or updates demo users and sample menu products in the configured MySQL database.
+
 ## Database Notes
 
 The backend connects to MySQL through Sequelize. The assignment focus is cloud database migration, so the database work includes:
