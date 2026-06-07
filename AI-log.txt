@@ -1,0 +1,19 @@
+AI-log
+
+Project: Restaurant Management System
+Topic: 30. Cloud Database Migration Playground
+Student: Dafina Rushiti
+
+AI tools used:
+- ChatGPT/Codex
+
+Main help received:
+- Interpreted the MCC 2026 assignment instructions and reservation workflow.
+- Matched the existing restaurant management project to topic 30, Cloud Database Migration Playground.
+- Helped prepare README setup instructions for running the frontend and backend.
+- Helped create safe .env.example files for frontend and backend configuration.
+- Planned the next development steps for database migration documentation, testing, and final submission.
+
+Notes:
+- AI was used for guidance, documentation support, and project planning.
+- Project code, configuration, and final decisions are reviewed before submission.
