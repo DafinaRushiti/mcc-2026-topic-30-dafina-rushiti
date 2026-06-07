@@ -144,6 +144,18 @@ Database synchronized successfully
 Admin user created
 ```
 
+## Deployment Result
+
+The project was deployed with the following cloud services:
+
+| Layer | Service | URL / Provider |
+| --- | --- | --- |
+| Frontend | Vercel | `https://mcc-2026-topic-30-dafina-rushiti.vercel.app` |
+| Backend API | Render | `https://mcc-2026-topic-30-dafina-rushiti.onrender.com` |
+| Database | Aiven MySQL | Managed MySQL database |
+
+The deployed frontend connects to the Render backend, and the Render backend connects to the Aiven MySQL database using SSL.
+
 ## Migration Checks
 
 Before considering the migration successful:

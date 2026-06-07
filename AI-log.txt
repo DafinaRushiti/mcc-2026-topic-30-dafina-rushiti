@@ -13,6 +13,10 @@ Main help received:
 - Helped prepare README setup instructions for running the frontend and backend.
 - Helped create safe .env.example files for frontend and backend configuration.
 - Planned the next development steps for database migration documentation, testing, and final submission.
+- Helped configure Aiven MySQL as the managed cloud database.
+- Helped configure Render backend deployment and Vercel frontend deployment.
+- Helped fix Linux case-sensitive import issues found during Render deployment.
+- Helped document deployment and testing evidence for the assignment.
 
 Notes:
 - AI was used for guidance, documentation support, and project planning.

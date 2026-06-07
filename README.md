@@ -10,6 +10,20 @@ This project is a restaurant management system with a React frontend and a Node.
 - Backend: Node.js, Express, Sequelize, MySQL
 - Authentication: JWT and bcrypt
 - Database: MySQL
+- Cloud deployment: Vercel, Render, Aiven MySQL
+
+## Live Deployment
+
+- Project repository: https://github.com/DafinaRushiti/mcc-2026-topic-30-dafina-rushiti
+- Frontend: https://mcc-2026-topic-30-dafina-rushiti.vercel.app
+- Backend API: https://mcc-2026-topic-30-dafina-rushiti.onrender.com
+- Database: Aiven for MySQL
+
+Frontend requests are sent to the backend API through:
+
+```text
+VITE_API_URL=https://mcc-2026-topic-30-dafina-rushiti.onrender.com/api
+```
 
 ## Project Structure
 
@@ -98,6 +112,10 @@ The backend connects to MySQL through Sequelize. The assignment focus is cloud d
 See [Database Migration Guide](docs/database-migration.md) for the topic-specific migration plan and checks.
 
 The backend was tested successfully with Aiven MySQL. On first connection, Sequelize created the required tables and the app created a default admin user.
+
+## Testing
+
+Deployment and local testing notes are documented in [Testing Guide](docs/testing.md).
 
 ## Security Notes
 
